@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Privacy policy | Job Hunter Agent</title><link rel="stylesheet" href="style.css"></head><body><main>
+<a href="index.html">Job Hunter Agent</a><h1>Privacy policy</h1><p>Effective date: October 18, 2026.</p>
+<p>This policy explains how Job Hunter Agent processes data for its personal job-search workflow.</p>
+<h2>Data accessed and used</h2>
+<p>The tool searches the authorized Gmail account for job alerts, forwarded job leads, and its own delivery receipts. It reads relevant message content, links, sender information, and message identifiers to extract opportunities and avoid repeated processing. Search filters may also return unrelated messages; the tool applies job-alert and lead filters to its results.</p>
+<p>The bound Google spreadsheet stores the candidate profile, preferences, settings, extracted opportunities, source health, AI summaries, and report history. The authorized account email is used for configuration and delivery. Apps Script properties store operational checkpoints and message identifiers.</p>
+<h2>External processing and sharing</h2>
+<p>Google hosts the spreadsheet, email, script, and operational logs. Reports are sent to the recipient configured by the operator.</p>
+<p>When Groq summaries are enabled, the tool sends selected job text, matching reasons and gaps, and a limited candidate excerpt to Groq. The excerpt includes professional positioning, degrees, experience, and capabilities. The summary payload omits dedicated candidate-name and contact fields; free-text profile fields should not contain information the operator does not want processed by Groq. Groq processes these requests under its own terms and privacy policy.</p>
+<p>Configured public job services receive requests needed to retrieve their listings. Extracted job text may originate in Gmail. Optional AI research features can send configured search themes or selected lead information to external services when enabled.</p>
+<p>The tool does not sell Google user data or use it for advertising. Data is used to collect, match, summarize, store, and deliver job-search information.</p>
+<h2>Storage, access, and deletion</h2>
+<p>Data remains in the operator's Google account, spreadsheet, script properties, and service logs until removed by the operator or applicable service retention rules. Spreadsheet and report access follows their Google sharing and recipient settings. The public information website does not expose these records.</p>
+<p>The operator can stop scheduled tasks and revoke Google authorization through Google Account settings. Revocation stops future authorized access; it does not delete existing spreadsheets, emails, logs, or data already processed by external services. To remove stored data, the operator must delete the relevant records and files, subject to the services' retention and recovery rules.</p>
+<h2>Contact and changes</h2>
+<p>Questions or deletion requests: <a href="mailto:shirdn@gmail.com">shirdn@gmail.com</a>. This policy will be updated when the tool's data practices change.</p>
+<nav aria-label="Policies"><a href="index.html">Home</a><a href="terms.html">Terms of use</a></nav>
+</main></body></html>
